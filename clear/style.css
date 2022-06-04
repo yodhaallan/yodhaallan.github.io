@@ -1,0 +1,27 @@
+.container {
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    overflow: auto;
+}
+img {
+    margin: 5px;
+    float: left;
+}
+.clear {
+    clear: left;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+/*micro clearfix*/

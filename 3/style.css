@@ -1,0 +1,28 @@
+.container {
+    width: 800px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+}
+.container .kiri {
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    float: left;
+}
+.container .tengah {
+    width: 500px;
+    height: 150px;
+    background-color: lightskyblue;
+    float: left;
+}
+.container .kanan {
+    width: 150px;
+    height: 150px;
+    background-color: limegreen;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+/*micro clearfix*/
